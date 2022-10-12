@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121f3d;
+    color: gold;
+}
+
+main h1 {
+    text-align: center;
+}
