@@ -9,6 +9,36 @@ body {
     color: gold;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #24385b;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 3px solid purple;
+}
+
+header nav > ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header img {
+    margin-left: 20px;
+    height: 40px;
+}
+
+nav ul > li {
+    list-style-type: none;
+    margin: 5px 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
 main {
     display: flex;
     flex-direction: column;
