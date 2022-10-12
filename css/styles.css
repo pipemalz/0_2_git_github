@@ -96,6 +96,6 @@ main h1 {
 .notas code {
     background-color: #24385b;
     color: gold;
-    padding: 4px;
-    border-radius: 5px;
+    padding: 2px 4px;
+    border-radius: 3px;
 }
