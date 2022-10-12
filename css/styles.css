@@ -19,6 +19,8 @@ main h1 {
     margin: 0 auto;
     background-color: #24385b;
     padding: 20px;
+    display: flex;
+    gap: 20px;
 }
 
 .clase {
