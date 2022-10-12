@@ -12,3 +12,24 @@ body {
 main h1 {
     text-align: center;
 }
+
+.clases {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #24385b;
+    padding: 20px;
+}
+
+.clase {
+    width: 250px;
+    min-height: 200px;
+    background-color: #33b1ff;
+    padding: 20px;
+    color: white;
+}
+
+.clase h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
