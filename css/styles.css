@@ -9,7 +9,10 @@ html{
 }
 
 body {
-    background-color: #121f3d;
+    /* background-color: #121f3d; */
+    background: url(../assets/background.jpg);
+    background-position: top;
+    object-fit: fill;
     color: gold;
 }
 
@@ -64,10 +67,12 @@ main h1 {
     width: 90%;
     max-width: 960px;
     margin: 0 auto;
-    background-color: #24385b;
+    background-color: rgba(36,56,91, 0.5);
     padding: 20px;
     display: flex;
+    justify-content: space-evenly;
     gap: 20px;
+    flex-wrap: wrap;
     border-radius: 10px;
 }
 
@@ -82,7 +87,7 @@ main h1 {
 }
 
 .clase h2{
-    padding: -20px;
+    padding: 5px;
     text-align: center;
     background-color: gold;
     border-radius: 10px 10px 0px 0px;
