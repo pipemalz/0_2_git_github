@@ -158,6 +158,16 @@ footer {
     margin: 10px 0;
 }
 
+.footer1 ul > li {
+    font-size: 15px;
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.footer1 ul a{
+    color: white;
+}
+
 .footer2 .social {
     display: flex;
     flex-wrap: wrap;
