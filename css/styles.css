@@ -106,3 +106,51 @@ main h1 {
     padding: 2px 4px;
     border-radius: 3px;
 }
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    min-height: 100px;
+    background-color: rgba(36,56,91, 1);
+    backdrop-filter: blur(3px);
+    display: flex;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.footer-section p {
+    margin: 10px 0;
+    font-weight: bold;
+    color: white;
+}
+
+.footer1 ul > li {
+    font-size: 15px;
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.footer2 .social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer2 .social i{
+    font-size: 50px;
+    color: white;
+}
+
+.footer3 {
+    justify-content: center;
+}
+
+.footer1, .footer2 {
+    border-right: 1px solid rgba(128,128,128, 0.3)
+}
