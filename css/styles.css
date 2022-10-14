@@ -31,18 +31,40 @@ header nav > ul {
     height: 100%;
 }
 
-header img {
+.logo {
     margin-left: 20px;
     height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid gold;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.logo p {
+    font-weight: bold;
+    text-shadow: 1px 1px purple;
 }
 
 nav ul > li {
     list-style-type: none;
     margin: 5px 10px;
+    transform: skew(-10deg, 0deg);
+    background-color: purple;
+    padding: 5px;
+}
+
+nav ul > li:hover{
+    background-color: gold;
+    cursor: pointer;
+}
+
+nav ul > li:hover a{
+    color: purple;
 }
 
 a {
-    color: white;
+    color: gold;
     text-decoration: none;
 }
 
