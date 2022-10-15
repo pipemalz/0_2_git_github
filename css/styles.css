@@ -52,19 +52,21 @@ nav ul > li {
     transform: skew(-10deg, 0deg);
     background-color: purple;
     padding: 5px;
+    box-shadow: 2px 2px gold;
 }
 
 nav ul > li:hover{
     background-color: gold;
     cursor: pointer;
+    box-shadow: unset;
 }
 
 nav ul > li:hover a{
-    color: purple;
+    color: #121f3d;
 }
 
 a {
-    color: gold;
+    color: white;
     text-decoration: none;
 }
 
@@ -82,6 +84,7 @@ main h1 {
     text-align: center;
     background-color: purple;
     transform: skew(-10deg, 0deg);
+    box-shadow: 3px 3px gold;
 }
 
 
@@ -156,36 +159,45 @@ footer {
     font-size: 15px;
     list-style-type: none;
     margin: 10px 0;
+    background-color: purple;
+    transform: skew(-10deg, 0deg);
+    padding: 2px;
+    box-shadow: 2px 2px gold;
 }
 
-.footer1 ul > li {
-    font-size: 15px;
-    list-style-type: none;
-    margin: 10px 0;
-    
+.footer1 ul > li:hover {
+    background-color: gold;
+    box-shadow: unset;
+}
+
+.footer1 ul > li:hover a{
+    color: #121f3d;
+    cursor: pointer;
 }
 
 .footer1 ul a{
     color: white;
-    text-decoration: underline;
-}
-
-.footer1 ul a:hover{
-    color: gold;
+    width: 100%;
 }
 
 .footer2 .social {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-}
+}   
 
 .footer2 .social i{
     font-size: 50px;
     color: white;
+    background-color: purple;
+    padding: 5px;
+    transform: skew(-10deg, 0deg);
+    box-shadow: 2px 2px gold;
 }
 .footer2 a i:hover{
-    color: gold;
+    color: #121f3d;
+    background-color: gold;
+    box-shadow: unset;
 }
 
 .footer3 {
