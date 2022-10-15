@@ -162,10 +162,16 @@ footer {
     font-size: 15px;
     list-style-type: none;
     margin: 10px 0;
+    
 }
 
 .footer1 ul a{
     color: white;
+    text-decoration: underline;
+}
+
+.footer1 ul a:hover{
+    color: gold;
 }
 
 .footer2 .social {
@@ -177,6 +183,9 @@ footer {
 .footer2 .social i{
     font-size: 50px;
     color: white;
+}
+.footer2 a i:hover{
+    color: gold;
 }
 
 .footer3 {
